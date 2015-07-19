@@ -19,7 +19,11 @@ Becomes:
 
 ```The Encyclopedia has made a great acquisition in the person of Mr. Bourgelat, Esquire of the King, the captain of his Academy in Lyons, & amp; Correspondent of the Royal Academy of Sciences in Paris. He wants to give us, starting with the letter E, all items that affect the Manege, the Maréchallerie, & amp; the relative Arts. This issue already contains a considerable number. The deep acquaintances of Mr. Bourgelat in the matter in question, we meet the care with which these items were made; they are marked with (e).```
 
-Once all texts are represented in a common language, one can search for textual reuse between two files by running:
+Once all texts are represented in a common language, the next step is to simply unzip the normalized word frequency file in this repo:
+
+`gunzip text_cleaning_resources/normalized_stats_one_million.txt.gz`
+
+One can search for textual reuse between two files by running:
 
 `python combinatorial_ngrams.py {text_one} {text_two} {window size} {step size} {ngram size}`
 
