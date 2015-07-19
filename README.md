@@ -45,6 +45,6 @@ As an example, running:
 
 completes in under a minute, and the first line of output looks like this:
 
-```sample/encyclopedie_volume05_translated.txt	sample/goldsmith_animated_nature_full_unsplit.txt	19	The borders are poorly guarded & amp; poorly fortified; the troops of the Empire are few & amp; poorly paid; there is no public money, because nobody wants to contribute.	The frontiers are all ill guarded and ill fortified; the troops of the empire are but few in number, and ill paid; nor are there any public funds to supply these defects, as none are willing to contribute to them.```
+```sample/encyclopedie_volume05_translated.txt {tab} sample/goldsmith_animated_nature_full_unsplit.txt {tab} 19 {tab} The borders are poorly guarded & amp; poorly fortified; the troops of the Empire are few & amp; poorly paid; there is no public money, because nobody wants to contribute. {tab} The frontiers are all ill guarded and ill fortified; the troops of the empire are but few in number, and ill paid; nor are there any public funds to supply these defects, as none are willing to contribute to them.```
 
 I included source code for additional string similarity metrics in the `similarity_metrics` directory, but will leave those undocumented.
