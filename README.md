@@ -1,4 +1,4 @@
-# crosslingual_text_reuse
+# Detecting (crosslingual) text reuse
 
 This repo contains simple Python utilities for identifying crosslingual textual reuse. To prepare texts for analysis, the `translate_texts/translate_text.py` script uses goslate (`pip install goslate`) to translate all texts into a common language. That script can be called like this:
 
