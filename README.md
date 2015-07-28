@@ -39,7 +39,7 @@ The output will contain data in the following format:
 
 Sorting by the third column can give a rough estimate of textual similarity between the passages, with more similar passages having higher values here. 
 
-As an example, the following lines will clone the repo and fire off the python command:
+As an example, the following lines will clone the repo and fire off the Python command:
 
 <pre><code>git clone https://github.com/duhaime/detect_reuse 
 cd detect_reuse 
@@ -48,7 +48,7 @@ gunzip normalized_stats_one_million.txt
 cd ../
 python combinatorial_ngrams_departure.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4</code></pre>
 
-completes in under a minute, and the first line of output looks like this:
+This Python call completes in under a minute, and the first line of output looks like this:
 
 ```sample/encyclopedie_volume05_translated.txt {tab} sample/goldsmith_animated_nature_full_unsplit.txt {tab} 19 {tab} The borders are poorly guarded & amp; poorly fortified; the troops of the Empire are few & amp; poorly paid; there is no public money, because nobody wants to contribute. {tab} The frontiers are all ill guarded and ill fortified; the troops of the empire are but few in number, and ill paid; nor are there any public funds to supply these defects, as none are willing to contribute to them.```
 
