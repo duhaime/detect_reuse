@@ -41,7 +41,7 @@ Sorting by the third column can give a rough estimate of textual similarity betw
 
 As an example, running:
 
-`python combinatorial_ngrams_departure.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4` 
+`python combinatorial_ngrams.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4` 
 
 completes in under a minute, and the first line of output looks like this:
 
