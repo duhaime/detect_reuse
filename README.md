@@ -39,9 +39,14 @@ The output will contain data in the following format:
 
 Sorting by the third column can give a rough estimate of textual similarity between the passages, with more similar passages having higher values here. 
 
-As an example, running:
+As an example, the following lines will clone the repo and fire off the python command:
 
-`python combinatorial_ngrams.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4` 
+`git clone https://github.com/duhaime/detect_reuse 
+cd detect_reuse 
+cd text_cleaning_resources
+gunzip normalized_stats_one_million.txt
+cd ../
+python combinatorial_ngrams_departure.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4` 
 
 completes in under a minute, and the first line of output looks like this:
 
