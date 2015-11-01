@@ -9,7 +9,7 @@ gunzip normalized_stats_one_million.txt
 cd ../
 python combinatorial_ngrams.py sample/encyclopedie_volume05_translated.txt sample/goldsmith_animated_nature_full_unsplit.txt 8 4 4</code></pre>
 
-This command looks for textual reuse between `sample/encyclopedie_volume05_translated.txt` and `sample/goldsmith_animated_nature_full_unsplit.txt`
+This command looks for textual reuse between "sample/encyclopedie_volume05_translated.txt" and "sample/goldsmith_animated_nature_full_unsplit.txt"
 
 ### Translation Utility
 
